@@ -1,0 +1,35 @@
+{
+    "users": [
+        {
+            "firstName": "William",
+            "lastName": "Smith",
+            "birthDate": {
+                "date": "2013-11-03",
+                "Year": 2020
+            },
+            "roles": [
+                {
+                    "roleName": "programmer",
+                    "startDate": "2019-01-23",
+                    "endDate": "2021-07-18"
+                },
+                {
+                    "roleName": "Tester",
+                    "startDate": "2015-02-10",
+                    "endDate": "2022-04-04"
+                }
+            ],
+            "dependents": [
+                {
+                    "firstName": "Zane",
+                    "lastName": "Rosen"
+                },
+                {
+                    "firstName": "Philip",
+                    "lastName": "Ginz"
+                }
+            ]
+        }
+    ]
+
+}
