@@ -1,0 +1,51 @@
+{
+    "students": [
+        {
+            "student_id": 1,
+            "first_name": "James",
+            "last_name": "Martin",
+            "enrollments": [
+                {
+                    "term": "Fall 2018",
+                    "gpa": 3.7,
+                    "start_date": "2018-9-22",
+                    "end_date": "2018-12-09",
+                    "courses": [
+                        {
+                            "course_id": 3,
+                            "description": "Python",
+                            "instructor": "Brown",
+                            "grade": "B"
+                        },
+                        {
+                            "course_id": 4,
+                            "description": "Java",
+                            "instructor": "Miller",
+                            "grade": "A"
+                        }
+                    ]
+                },
+                {
+                    "term": "Spring 2017",
+                    "gpa": 3.4,
+                    "start_date": "2017-03-29",
+                    "end_date": "2017-06-16",
+                    "courses": [
+                        {
+                            "course_id": 1,
+                            "description": "Databases",
+                            "instructor": "Jones",
+                            "grade": "A"
+                        },
+                        {
+                            "course_id": 2,
+                            "description": "Offensive Security",
+                            "instructor": "Jackson",
+                            "grade": "B"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "customers": [
+        {
+            "_id": 1,
+            "first_name": "Stan",
+            "last_name": "Davis",
+            "date_of_birth": "1984-12-14",
+            "user_name": "sdavis84",
+            "invoices": [
+                {
+                    "_id": 1,
+                    "date_created": "2019-01-27",
+                    "date_shipped": "2014-01-30",
+                    "subtotal": 216.89,
+                    "lineItems": [
+                        {
+                            "_id": 1,
+                            "name": "Solid State Drive",
+                            "price": 119.99,
+                            "quantity": 1
+                        },
+                        {
+                            "_id": 2,
+                            "name": "Flash Drive",
+                            "price": 32.99,
+                            "quantity": 2
+                        }
+                    ]
+                },
+                {
+                    "_id": 2,
+                    "date_created": "2020-07-03",
+                    "date_shipped": "2020-07-04",
+                    "subtotal": 78.68,
+                    "lineItems": [
+                        {
+                            "_id": 3,
+                            "name": "Fan",
+                            "price": 36.88,
+                            "quantity": 1
+                        },
+                        {
+                            "_id": 4,
+                            "name": "HDMI Cable",
+                            "price": 22.16,
+                            "quantity": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
