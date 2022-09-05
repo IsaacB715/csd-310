@@ -1,0 +1,18 @@
+{
+    "book_isbn": "9781593279288",
+    "book_name": "Python Crash Course",
+    "book_price": 36.00,
+    "publisher": {
+        "publisher_name": "No Starch Press",
+        "publisher_code": "55647",
+        "publisher_address": "329 Primose Road"
+    },
+    "authors": [
+        {
+            "author_first_name": "Eric",
+            "author_last_name": "Matthes",
+            "author_phone": "907-747-5818",
+            "author_email": "ematthes@gmail.com"
+        }
+    ]
+}

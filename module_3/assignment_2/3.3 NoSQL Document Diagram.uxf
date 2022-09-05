@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <help_text/>
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>396</x>
+      <y>252</y>
+      <w>261</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>BOOK DOCUMENT
+--
+{
+	"book_isbn": "9781593279288",
+	"book_name": "Python Crash Course",
+	"book_price": 36.00
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>801</x>
+      <y>252</y>
+      <w>261</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>PUBLISHER DOCUMENT
+--
+{
+	"publisher_name": "No Starch Press",
+	"publisher_code": "55647",
+	"publisher_address": "329 Primrose Road"
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>396</x>
+      <y>513</y>
+      <w>261</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>AUTHOR DOCUMENT
+--
+{
+	"author_first_name": "Eric",
+	"author_last_name": "Matthes",
+	"author_phone": "907-747-5818",
+	"author_email": "ematthes@gmail.com"
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>648</x>
+      <y>315</y>
+      <w>171</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>170.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>513</x>
+      <y>387</y>
+      <w>45</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1= 1.*</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

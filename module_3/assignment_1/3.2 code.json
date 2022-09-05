@@ -1,0 +1,26 @@
+{
+    "first_name": "Jason",
+    "last_name": "Kelly",
+    "roles": [
+        {
+            "role_one": "developer",
+            "permissions_one": [
+                {
+                    "permission_name": "write code"
+                },
+                {
+                    "permission_name": "run programs"
+                }
+            ],
+            "role_two": "tester",
+            "permissions_two": [
+                {
+                    "permission_name": "view code"
+                },
+                {
+                    "permission_name": "test code"
+                }
+            ]
+        }
+    ]
+}
