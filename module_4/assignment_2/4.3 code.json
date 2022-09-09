@@ -1,0 +1,51 @@
+{
+    "student": [
+        {
+            "student_id": 3866993,
+            "first_name": "Rachel",
+            "last_name": "Smith",
+            "enrollments": [
+                {
+                    "term": "Fall 2019",
+                    "gpa": "3.4",
+                    "start_date": "9-19-2019",
+                    "end_date": "12-09-2019",
+                    "Courses": [
+                        {
+                            "course_id": 76693,
+                            "description": "Python",
+                            "instructor": "Phillips",
+                            "grade": "A"
+                        },
+                        {
+                            "course_id": 38802,
+                            "description": "SQL",
+                            "instructor": "Brooks",
+                            "grade": "B"
+                        }
+                    ]
+                },
+                {
+                    "term": "Winter 2020",
+                    "gpa": "3.7",
+                    "start_date": "1-04-2020",
+                    "end_date": "3-24-2020",
+                    "Courses": [
+                        {
+                            "course_id": 86443,
+                            "description": "Java",
+                            "instructor": "Davidson",
+                            "grade": "B"
+                        },
+                        {
+                            "course_id": 26335,
+                            "description": "C++",
+                            "instructor": "Miller",
+                            "grade": "A"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
