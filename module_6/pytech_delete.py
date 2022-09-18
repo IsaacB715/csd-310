@@ -22,6 +22,7 @@ fred = {"first_name": "Emily","last_name": "White", "student_id": "1010"}
 id = students.insert_one(fred).inserted_id
 
 print("Inserted student record into the students collection with document_id ", id)
+print()
 print("-- DISPLAYING STUDENT TEST DOC --")
 student = students.find_one({"student_id": "1010"})
 display_student(student)
